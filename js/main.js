@@ -21,7 +21,6 @@ var cards = [
 }
 ]; 
 
-
 var cardsInPlay = [];
 
 var checkForMatch = function () {
@@ -72,6 +71,12 @@ var createBoard = function() {
 };
 
 createBoard();
+
+//Tried to use JavaScript to reset game board, ended up adding extra gameboards everytime clicked, created reset using button to link back to original URL
+
+//document.querySelector('button').addEventListener('click', createBoard);
+
+
 
 
 
